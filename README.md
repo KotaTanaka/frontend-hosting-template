@@ -4,11 +4,12 @@
 
 ## Technology
 
-* [Svelte](https://svelte.dev)
+* [Svelte](https://svelte.dev) */ Generated with [Svelte template](https://github.com/sveltejs/template)*
+* JavaScript
 
 ## Getting started
 
-* *Install*
+* Install
 
 ```
 $ git clone git@github.com:KotaTanaka/frontend-hosting-template.git
@@ -16,7 +17,7 @@ $ cd frontend-hosting-template
 $ yarn
 ```
 
-* *Run*
+* Run
 
 ```
 $ yarn dev
@@ -24,8 +25,19 @@ $ yarn dev
 
 → http://localhost:5000
 
-* *Build and run in production mode*
+* Build
 
 ```
 $ yarn build
 ```
+
+* Run in production mode
+
+```
+$ yarn start
+```
+
+## Hosting settings
+
+* [Netlify](https://www.netlify.com) - `netlify.toml`
+* [AWS Amplify](https://aws.amazon.com/jp/amplify/) - `amplify.yml`
